@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "satsangeurope": "satsangeurope-backendmail"
+  },
+  "targets": {
+    "satsangeurope-backendmail": {
+      "hosting": {
+        "satsangeurope-backendmail": [
+          "satsangeurope-backendmail"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

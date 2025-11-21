@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "title": "Willkommen bei Satsang Europe - Pflege der Harmonie, Kultivierung der Menschlichkeit",
+    "description": "Satsang Europe ist eine philanthropische soziokulturelle Organisation, die in der Philosophie und den tiefgreifenden Prinzipien von Sree Sree Thakur Anukulchandra verwurzelt ist. Seine Philosophie wird praktisch durch Seine Persönlichkeit und Sein Leben verkörpert, das entschlossen von Harmonie, Liebe und gegenseitig empathischer Weite geprägt war. Unser Engagement liegt im selbstlosen Dienst, der Förderung gesellschaftlicher Harmonie und der ganzheitlichen Entwicklung von Individuen im Einklang mit der Umwelt."
+  },
+  "thakur": {
+    "title": "Sree Sree Thakur Anukulchandra - Erfüller des Besten des Zeitalters",
+    "description": "Sree Sree Thakur Anukulchandra, dessen klarer Ruf, den Tod in all seinen Formen - physisch und spirituell - zu widerstehen, zahlreiche schwindende Seelen wiederbelebt und zahllose schlummernde Geister geweckt hat. Er hat mit Seinem Leben und Seinen Aussagen, mit Seinem eigenen Verhalten und Schritten aufgezeigt, wie man das Leben in vollen Zügen genießen kann, mit all seinen feinen Düften und Farben, und wie man die Unkräuter in unserem Charakter loswerden kann, die drohen, alle Freude zu verderben und die Vitalität vor der Zeit zu ersticken. Er sprach unermüdlich darüber, wie der Mensch den Weg des Seins und Werdens gehen kann, nicht allein, sondern gemeinsam mit der Umwelt. Sein Leben und seine Aktivität waren von einem einzigen Zweck geprägt - den Menschen von den Klauen seiner eigenen Leidenschaften zu entwöhnen und ihn in ein Leben des Lichts und der Glückseligkeit zu führen."
+  },
+  "concentric": {
+    "title": "Der Weg nach IHM - Sei konzentrisch!",
+    "description": "Jeder Mensch liebt instinktiv sein eigenes Wesen und möchte es unversehrt bewahren. So lautet das Mantra, das er als Schlüssel zum Genuss einspritzen wollte: Mit einem lebenden Ideal im Zentrum des Lebens - das ist der Weg vom Sein zu Werdendem. Genuss des Lebens, nicht der Leidenschaften. Lass den Leidenschaften freien Lauf, sie werden dich zu einem verkohlten Dasein verbrennen; halte sie fest im Griff, sie werden dich zu einem lächerlichen Zwerg von einem Menschen machen; aber justiere sie richtig, und sie werden zu den Säulen deines Daseins werden. Aber diese Anpassung ist unmöglich, wenn es im Leben nicht jemanden gibt, der durch sein normales Verhalten eine sinnvolle Anpassung der Leidenschaften und Komplexe erfolgreich durchgeführt hat. Daher wird ein lebendiges Ideal - ein kompetenter und verwirklichter Mensch in Fleisch und Blut - benötigt, in dem alle menschlichen Qualitäten in ihrer besten und normalen, mühelosen Art angeordnet und angepasst sind, als Führer. Eine solche Person fungiert als Spiegel, als Reiniger der menschlichen Natur. Nur mit liebevoller Anlehnung an IHN kann der Mensch seinen Charakter formen und den Weg der existenziellen Erhebung und des Genusses in Harmonie mit der Umwelt gehen."
+  },
+  "events": {
+    "title": "Kommende Veranstaltungen",
+    "moreEvents": "Weitere Veranstaltungen",
+    "noEvents": "Keine bevorstehenden Veranstaltungen"
+  }
+}

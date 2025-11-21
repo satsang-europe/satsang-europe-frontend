@@ -1,0 +1,360 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-11-21",
+      "category": "satsang"
+    },
+    {
+      "id": "2",
+      "title": "Special Satsang in Arnhem",
+      "description": "Special Satsang in Arnhem, Netherlands in the old-age home. Starting form 16:00 afternoon. Singing and other cultural programs will be there. Foods will be served after event",
+      "location": "Arnhem Zoud, Netherlands",
+      "date": "2025-11-22",
+      "category": "satsang"
+    },
+    {
+      "id": "3",
+      "title": "Food Service in Netherlands",
+      "description": "Food awareness service at Arnhem central. With the blessings of Rev. Acharyadev and Rev. Abin Da, our gurubrotheres and sisters will serve free food to people",
+      "location": "Arnhem Central, Netherlands",
+      "date": "2025-12-26",
+      "category": "foodservice"
+    },
+    {
+      "id": "4",
+      "title": "Food Service in Netherlands",
+      "description": "Food awareness service at Arnhem central. With the blessings of Rev. Acharyadev and Rev. Abin Da, our gurubrotheres and sisters will serve free food to people",
+      "location": "Arnhem Central, Netherlands",
+      "date": "2025-10-26",
+      "category": "foodservice"
+    },
+    {
+      "id": "5",
+      "title": "Seminar in Netherlands",
+      "description": "Seminar in germany. at the Munich central.",
+      "location": "Munich, Germany",
+      "date": "2025-12-06",
+      "category": "seminar"
+    },
+    {
+      "id": "6",
+      "title": "Seminar in Switzerland",
+      "description": "Seminar in switzerland. at the Bern central.",
+      "location": "Bern, Switzerland",
+      "date": "2025-11-19",
+      "category": "seminar"
+    },
+    {
+      "id": "7",
+      "title": "Seminar in germany",
+      "description": "Seminar in germany. at the Munich central.",
+      "location": "Munich, Germany",
+      "date": "2025-12-19",
+      "category": "seminar"
+    }
+  ],
+  "congregations": [
+    {
+      "id": "1",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-08-21",
+      "category": "satsang",
+      "imageLink": "/previousevent.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "2",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-10-01",
+      "category": "satsang",
+      "imageLink": "/previousevent.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "3",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-04-21",
+      "category": "satsang",
+      "imageLink": "/previousevent.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "4",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-10-25",
+      "category": "satsang",
+      "imageLink": "/previousevent.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "5",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-09-21",
+      "category": "satsang",
+      "imageLink": "/previousevent.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "6",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-10-12",
+      "category": "satsang",
+      "imageLink": "/previousevent.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "7",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-10-21",
+      "category": "satsang",
+      "imageLink": "/previousevent.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    }
+  ],
+  "foodservices": [
+    {
+      "id": "1",
+      "title": "Food Service in Netherlands",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-08-21",
+      "category": "foodservice",
+      "imageLink": "/prevfoodservice.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02DXUeiefnp5VMSUPK17KbLEmczEymgCV5pBE2LFfTyCFrq2DYiUYca4bw5xexss1Jl&show_text=true"
+    },
+    {
+      "id": "2",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-10-01",
+      "category": "foodservice",
+      "imageLink": "/prevfoodservice.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "3",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-04-21",
+      "category": "foodservice",
+      "imageLink": "/prevfoodservice.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "4",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-10-25",
+      "category": "foodservice",
+      "imageLink": "/prevfoodservice.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "5",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-09-21",
+      "category": "foodservice",
+      "imageLink": "/prevfoodservice.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "6",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-10-12",
+      "category": "foodservice",
+      "imageLink": "/prevfoodservice.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "7",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-10-21",
+      "category": "foodservice",
+      "imageLink": "/prevfoodservice.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    }
+  ],
+  "seminars": [
+    {
+      "id": "1",
+      "title": "Food Service in Netherlands",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-08-21",
+      "category": "foodservice",
+      "imageLink": "/prevfoodservice.png",
+      "eventLink": ""
+    },
+    {
+      "id": "2",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-10-01",
+      "category": "foodservice",
+      "imageLink": "/prevfoodservice.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "3",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-04-21",
+      "category": "foodservice",
+      "imageLink": "/prevfoodservice.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "4",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-10-25",
+      "category": "foodservice",
+      "imageLink": "/prevfoodservice.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "5",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-09-21",
+      "category": "foodservice",
+      "imageLink": "/prevfoodservice.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "6",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-10-12",
+      "category": "foodservice",
+      "imageLink": "/prevfoodservice.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    },
+    {
+      "id": "7",
+      "title": "Special Satsang in Paris",
+      "description": "Annual special Satsang in Paris. Starting form 12:00 afternoon. Foods will be served after event",
+      "location": "Neuily Sur Siene, Paris, France",
+      "date": "2025-10-21",
+      "category": "foodservice",
+      "imageLink": "/prevfoodservice.png",
+      "eventLink": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsatsang.europe%2Fposts%2Fpfbid02MqRR32KDiBDzsoYFqVB3tNUoGjExzp2uwrL3yiJ3GFhoqCNJA46P1Lt2B6qwiDNrl&show_text=true&width=500"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Love for the Supreme Lord",
+      "summary": "The only way to get Him in life",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
+      "author": "Arijit Biswas",
+      "createdAt": "2025-08-12"
+    },
+    {
+      "id": "2",
+      "title": "Love for the Supreme Lord",
+      "summary": "The only way to get Him in life",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
+      "author": "Arijit Biswas",
+      "createdAt": "2025-11-12"
+    },
+    {
+      "id": "3",
+      "title": "Love for the Supreme Lord",
+      "summary": "The only way to get Him in life",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
+      "author": "Arijit Biswas",
+      "createdAt": "2025-09-12"
+    },
+    {
+      "id": "4",
+      "title": "Love for the Supreme Lord",
+      "summary": "The only way to get Him in life",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
+      "author": "Arijit Biswas",
+      "createdAt": "2025-04-12"
+    },
+    {
+      "id": "5",
+      "title": "Love for the Supreme Lord",
+      "summary": "The only way to get Him in life",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
+      "author": "Arijit Biswas",
+      "createdAt": "2025-08-02"
+    },
+    {
+      "id": "6",
+      "title": "Love for the Supreme Lord",
+      "summary": "The only way to get Him in life",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
+      "author": "Arijit Biswas",
+      "createdAt": "2025-05-12"
+    },
+    {
+      "id": "7",
+      "title": "Love for the Supreme Lord",
+      "summary": "The only way to get Him in life",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
+      "author": "Arijit Biswas",
+      "createdAt": "2025-06-12"
+    }
+  ],
+  "magazines": [
+    {
+      "id": "1",
+      "slug": "magazine-fifth",
+      "title": "QUELLPARADIES 5th Edition",
+      "image": "/magazine6th.png",
+      "fileLink": "/magazine6th.pdf",
+      "createdAt": "2025-08-12"
+    },
+    {
+      "id": "2",
+      "slug": "magazine-sixth",
+      "title": "QUELLPARADIES 6th Edition",
+      "image": "/magazine6th.png",
+      "fileLink": "/magazine6th.pdf",
+      "createdAt": "2025-11-18"
+    },
+    {
+      "id": "3",
+      "slug": "magazine-fourth",
+      "title": "QUELLPARADIES 4th Edition",
+      "image": "/magazine6th.png",
+      "fileLink": "/magazine6th.pdf",
+      "createdAt": "2025-07-12"
+    }
+  ]
+}

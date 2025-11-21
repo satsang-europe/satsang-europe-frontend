@@ -1,0 +1,19 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+count.txt
+.nitro
+.tanstack
+.wrangler
+.vscode
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# But allow .env.example (this is safe to commit)
+!.env.example
