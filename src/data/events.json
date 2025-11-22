@@ -276,59 +276,87 @@
   "blogs": [
     {
       "id": "1",
+      "documentId": "423423424",
       "title": "Love for the Supreme Lord",
       "summary": "The only way to get Him in life",
       "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
       "author": "Arijit Biswas",
-      "createdAt": "2025-08-12"
+      "createdAt": "2025-08-12",
+      "date": "2025-10-12",
+      "updatedAt": "12-05-2025",
+      "publishedAt": "12-05-2025"
     },
     {
       "id": "2",
+      "documentId": "42342323424",
       "title": "Love for the Supreme Lord",
       "summary": "The only way to get Him in life",
       "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
       "author": "Arijit Biswas",
-      "createdAt": "2025-11-12"
+      "createdAt": "2025-08-12",
+      "date": "2025-11-12",
+      "updatedAt": "12-05-2025",
+      "publishedAt": "12-05-2025"
     },
     {
       "id": "3",
+      "documentId": "42342332424",
       "title": "Love for the Supreme Lord",
       "summary": "The only way to get Him in life",
       "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
       "author": "Arijit Biswas",
-      "createdAt": "2025-09-12"
+      "createdAt": "2025-08-12",
+      "date": "2025-09-12",
+      "updatedAt": "12-05-2025",
+      "publishedAt": "12-05-2025"
     },
     {
       "id": "4",
+      "documentId": "42342332424",
       "title": "Love for the Supreme Lord",
       "summary": "The only way to get Him in life",
       "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
       "author": "Arijit Biswas",
-      "createdAt": "2025-04-12"
+      "createdAt": "2025-08-12",
+      "date": "2025-09-12",
+      "updatedAt": "12-05-2025",
+      "publishedAt": "12-05-2025"
     },
     {
       "id": "5",
+      "documentId": "42342332424",
       "title": "Love for the Supreme Lord",
       "summary": "The only way to get Him in life",
       "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
       "author": "Arijit Biswas",
-      "createdAt": "2025-08-02"
+      "createdAt": "2025-08-12",
+      "date": "2025-09-12",
+      "updatedAt": "12-05-2025",
+      "publishedAt": "12-05-2025"
     },
     {
       "id": "6",
+      "documentId": "42342332424",
       "title": "Love for the Supreme Lord",
       "summary": "The only way to get Him in life",
       "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
       "author": "Arijit Biswas",
-      "createdAt": "2025-05-12"
+      "createdAt": "2025-08-12",
+      "date": "2025-09-12",
+      "updatedAt": "12-05-2025",
+      "publishedAt": "12-05-2025"
     },
     {
       "id": "7",
+      "documentId": "42342332424",
       "title": "Love for the Supreme Lord",
       "summary": "The only way to get Him in life",
       "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,",
       "author": "Arijit Biswas",
-      "createdAt": "2025-06-12"
+      "createdAt": "2025-08-12",
+      "date": "2025-09-12",
+      "updatedAt": "12-05-2025",
+      "publishedAt": "12-05-2025"
     }
   ],
   "magazines": [

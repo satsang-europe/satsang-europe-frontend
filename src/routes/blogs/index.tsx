@@ -35,7 +35,7 @@ function BlogsPage() {
   const indexOfFirst = indexOfLast - blogPerPage;
   const currentBlogs = blogs.slice(indexOfFirst, indexOfLast);
   return (
-    <>
+    <div className="flex flex-col min-h-full">
       <div className="flex justify-start mb-4 md:mb-8">
         <Link
           to="/"
@@ -49,7 +49,7 @@ function BlogsPage() {
           Blogs
         </h1>
       </div>
-      <div className="p-4 bg-gray-700">
+      <div className="p-4 bg-gray-700 mb-16">
         {blogs.length > 0 ? (
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {currentBlogs.map((blog: BlogType) => (
@@ -87,6 +87,13 @@ function BlogsPage() {
           />
         )}
       </div>
-    </>
+      <p className="text-sm text-gray-200 text-justify mb-2">
+        ** Interested writers may send their contributions to
+        <strong> satsang.europe@gmail.com</strong>. All submissions will be
+        reviewed and curated before posting, and sending an article does not
+        automatically guarantee publication. Satsang Europe reserves the right
+        to accept or reject any proposed contribution.
+      </p>
+    </div>
   );
 }
