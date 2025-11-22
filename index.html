@@ -12,8 +12,65 @@
     <link rel="apple-touch-icon" href="/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
     <title>Satsang Europe</title>
+    <style>
+      /* Initial loader styles - inline to avoid FOUC */
+      #initial-loader {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(
+          90deg,
+          #2a2929 0%,
+          rgba(81, 79, 79, 0.87) 35%,
+          rgba(43, 42, 42, 0.99) 100%
+        );
+        z-index: 9999;
+        transition: opacity 0.3s ease-out;
+      }
+
+      #initial-loader.hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .loader-spinner {
+        width: 60px;
+        height: 60px;
+        border: 4px solid rgba(255, 255, 255, 0.1);
+        border-top-color: #ffffff;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      .loader-text {
+        position: absolute;
+        margin-top: 100px;
+        color: #ffffff;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
   </head>
   <body>
+    <!-- Initial loader - shows immediately -->
+    <div id="initial-loader">
+      <div>
+        <div class="loader-spinner"></div>
+        <div class="loader-text">Loading Satsang Europe...</div>
+      </div>
+    </div>
     <div id="app"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

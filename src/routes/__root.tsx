@@ -9,6 +9,7 @@ import { QueryClient } from "@tanstack/react-query";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NotFound from "@/components/NotFound";
+import LoadingSpinner from "@/components/LoadingSpinner";
 
 type RouterContext = {
   queryClient: QueryClient;
@@ -17,6 +18,9 @@ type RouterContext = {
 export const Route = createRootRouteWithContext<RouterContext>()({
   component: RootLayout,
   notFoundComponent: NotFound,
+  pendingComponent: () => (
+    <LoadingSpinner message="Satsang Europe Loading..." />
+  ),
 });
 
 function RootLayout() {

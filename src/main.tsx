@@ -1,4 +1,4 @@
-import { StrictMode } from "react";
+import React, { StrictMode, Suspense, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createRouter } from "@tanstack/react-router";
 import { get, set, del } from "idb-keyval";
@@ -13,6 +13,7 @@ import { QueryClient } from "@tanstack/react-query";
 
 import "./i18n/config";
 import "./i18n/types";
+import LoadingSpinner from "./components/LoadingSpinner.tsx";
 
 // Create tanstack query client
 const queryClient = new QueryClient({
@@ -46,6 +47,9 @@ const router = createRouter({
   scrollRestoration: true,
   defaultStructuralSharing: true,
   defaultPreloadStaleTime: 0,
+  defaultPendingComponent: () => (
+    <LoadingSpinner message="Satsang Europe Loading ..." />
+  ),
 });
 
 // Register the router instance for type safety
@@ -55,22 +59,51 @@ declare module "@tanstack/react-router" {
   }
 }
 
+// Component to hide initial loader once React is ready
+function AppWrapper({ children }: { children: React.ReactNode }) {
+  const [isReady, setIsReady] = React.useState(false);
+
+  useEffect(() => {
+    setIsReady(true);
+  }, []);
+
+  useEffect(() => {
+    if (isReady) {
+      // Hide the initial HTML loader once React has mounted
+      const loader = document.getElementById("initial-loader");
+      if (loader) {
+        loader.classList.add("hidden");
+        // Remove from DOM after transition
+        setTimeout(() => loader.remove(), 300);
+      }
+    }
+  }, [isReady]);
+
+  return <>{children}</>;
+}
+
 // Render the app
 const rootElement = document.getElementById("app");
 if (rootElement && !rootElement.innerHTML) {
   const root = ReactDOM.createRoot(rootElement);
   root.render(
-    <PersistQueryClientProvider
-      client={queryClient}
-      persistOptions={{
-        persister,
-        maxAge: 24 * 60 * 1000,
-      }}
-    >
-      <StrictMode>
-        <RouterProvider router={router} />
-      </StrictMode>
-    </PersistQueryClientProvider>
+    <StrictMode>
+      <Suspense
+        fallback={<LoadingSpinner message="Initializing application..." />}
+      >
+        <PersistQueryClientProvider
+          client={queryClient}
+          persistOptions={{
+            persister,
+            maxAge: 24 * 60 * 1000,
+          }}
+        >
+          <AppWrapper>
+            <RouterProvider router={router} />
+          </AppWrapper>
+        </PersistQueryClientProvider>
+      </Suspense>
+    </StrictMode>
   );
 }
 
