@@ -14,6 +14,21 @@ const HeroBanner = () => {
     },
   ];
 
+  const imagesInMobile = [
+    {
+      src: "/acharyaDeb_1.png",
+      alt: "Acharyadev",
+      title: "SREE SREE ACHARYADEV",
+    },
+    { src: "/thakur_1.png", alt: "Thakur", title: "SREE SREE THAKUR" },
+    { src: "/boroma_1.png", alt: "Boroma", title: "SREE SREE BOROMA" },
+    {
+      src: "/borda_1.png",
+      alt: "Borda",
+      title: "SREE SREE BORDA",
+    },
+  ];
+
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => prev + 1);
@@ -22,7 +37,7 @@ const HeroBanner = () => {
   }, []);
 
   useEffect(() => {
-    if (currentSlide === images.length) {
+    if (currentSlide === imagesInMobile.length) {
       setTimeout(() => {
         setIsTransitioning(false);
         setCurrentSlide(0);
@@ -56,7 +71,7 @@ const HeroBanner = () => {
           className={`flex ${isTransitioning ? "transition-transform duration-500 ease-in-out" : ""}`}
           style={{ transform: `translateX(-${currentSlide * 100}%)` }}
         >
-          {images.map((image, index) => (
+          {imagesInMobile.map((image, index) => (
             <div key={index} className="min-w-full shrink-0">
               <div className="border-2 rounded-md overflow-hidden border-amber-300 mx-4">
                 <img src={image.src} alt={image.alt} className="w-full" />
@@ -68,9 +83,13 @@ const HeroBanner = () => {
           ))}
           <div className="min-w-full shrink-0">
             <div className="border-2 rounded-md overflow-hidden border-amber-300 mx-4">
-              <img src={images[0].src} alt={images[0].alt} className="w-full" />
+              <img
+                src={imagesInMobile[0].src}
+                alt={imagesInMobile[0].alt}
+                className="w-full"
+              />
               <p className="w-full text-center py-1 font-bold bg-gray-600">
-                {images[0].title}
+                {imagesInMobile[0].title}
               </p>
             </div>
           </div>
