@@ -6,6 +6,7 @@ import VaniComponent from "@/components/VamiComponent";
 import type { EventTypes } from "@/types";
 import { strapiApi } from "@/api/axios";
 import { useTranslation } from "react-i18next";
+import UtsavRegisterLink from "@/components/RegistrationLink";
 
 const fetchEventsFromStrapi = async (): Promise<EventTypes[]> => {
   const res = await strapiApi.get("/upcoming-events");
@@ -37,13 +38,14 @@ function HomePage() {
     .filter(
       (event) =>
         event.category.toLowerCase().trim() === "satsang" ||
-        event.category.toLowerCase().trim() === "seminar"
+        event.category.toLowerCase().trim() === "seminar",
     )
     .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())[0];
   return (
     <>
       <HeroBanner />
       <main className="max-w-4xl mt-10 mx-auto">
+        <UtsavRegisterLink />
         <div className="px-2">
           <h1 className="font-bold text-2xl md:text-3xl text-amber-400 text-center mb-4">
             {t("hero.title")}
