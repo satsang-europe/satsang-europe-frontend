@@ -36,7 +36,7 @@ function PublicationsPage() {
   const { data } = useSuspenseQuery(magazineQueryOptions());
   const magazines = data.sort(
     (a: MagazineType, b: MagazineType) =>
-      new Date(b.date).getTime() - new Date(a.date).getTime()
+      new Date(b.date).getTime() - new Date(a.date).getTime(),
   );
   const [currentPage, setCurrentPage] = useState(1);
   const eventsPerPage = 5;

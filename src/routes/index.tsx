@@ -6,11 +6,17 @@ import VaniComponent from "@/components/VamiComponent";
 import type { EventTypes } from "@/types";
 import { strapiApi } from "@/api/axios";
 import { useTranslation } from "react-i18next";
+import UtsavRegisterLink from "@/components/RegistrationLink";
 // import UtsavRegisterLink from "@/components/RegistrationLink";
 
 const fetchEventsFromStrapi = async (): Promise<EventTypes[]> => {
-  const res = await strapiApi.get("/upcoming-events");
-  return res.data.data;
+  try {
+    const res = await strapiApi.get("/upcoming-events");
+    return res.data?.data || []; // Return empty array if data is undefined
+  } catch (error) {
+    console.error("Error fetching events:", error);
+    return []; // Return empty array on error
+  }
 };
 
 const eventQueryOptions = () =>
@@ -45,7 +51,7 @@ function HomePage() {
     <>
       <HeroBanner />
       <main className="max-w-4xl mt-10 mx-auto">
-        {/* <UtsavRegisterLink /> */}
+        <UtsavRegisterLink />
         <div className="px-2">
           <h1 className="font-bold text-2xl md:text-3xl text-amber-400 text-center mb-4">
             {t("hero.title")}
