@@ -6,7 +6,7 @@ const UtsavRegisterLink = () => {
         className="inline-block text-3xl text-blue-300 transition-all hover:text-blue-500 border-2 border-yellow-200
         px-2 py-2 text-shadow-sm text-shadow-blue-100"
       >
-        Ninth Annual German Utsav Registration Link
+        9th Annual German Utsav Registration Link
       </a>
     </div>
   );
