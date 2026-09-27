@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as PublicationsIndexRouteImport } from './routes/publications/index'
+import { Route as PrivacyPolicyIndexRouteImport } from './routes/privacy-policy/index'
 import { Route as LegaldocsIndexRouteImport } from './routes/legaldocs/index'
 import { Route as EventsIndexRouteImport } from './routes/events/index'
 import { Route as ContactusIndexRouteImport } from './routes/contactus/index'
@@ -30,6 +31,11 @@ const IndexRoute = IndexRouteImport.update({
 const PublicationsIndexRoute = PublicationsIndexRouteImport.update({
   id: '/publications/',
   path: '/publications/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PrivacyPolicyIndexRoute = PrivacyPolicyIndexRouteImport.update({
+  id: '/privacy-policy/',
+  path: '/privacy-policy/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LegaldocsIndexRoute = LegaldocsIndexRouteImport.update({
@@ -93,6 +99,7 @@ export interface FileRoutesByFullPath {
   '/contactus': typeof ContactusIndexRoute
   '/events': typeof EventsIndexRoute
   '/legaldocs': typeof LegaldocsIndexRoute
+  '/privacy-policy': typeof PrivacyPolicyIndexRoute
   '/publications': typeof PublicationsIndexRoute
   '/blogs/$blogId': typeof BlogsBlogIdIndexRoute
   '/events/previouscongregations': typeof EventsPreviouscongregationsIndexRoute
@@ -107,6 +114,7 @@ export interface FileRoutesByTo {
   '/contactus': typeof ContactusIndexRoute
   '/events': typeof EventsIndexRoute
   '/legaldocs': typeof LegaldocsIndexRoute
+  '/privacy-policy': typeof PrivacyPolicyIndexRoute
   '/publications': typeof PublicationsIndexRoute
   '/blogs/$blogId': typeof BlogsBlogIdIndexRoute
   '/events/previouscongregations': typeof EventsPreviouscongregationsIndexRoute
@@ -122,6 +130,7 @@ export interface FileRoutesById {
   '/contactus/': typeof ContactusIndexRoute
   '/events/': typeof EventsIndexRoute
   '/legaldocs/': typeof LegaldocsIndexRoute
+  '/privacy-policy/': typeof PrivacyPolicyIndexRoute
   '/publications/': typeof PublicationsIndexRoute
   '/blogs/$blogId/': typeof BlogsBlogIdIndexRoute
   '/events/previouscongregations/': typeof EventsPreviouscongregationsIndexRoute
@@ -138,6 +147,7 @@ export interface FileRouteTypes {
     | '/contactus'
     | '/events'
     | '/legaldocs'
+    | '/privacy-policy'
     | '/publications'
     | '/blogs/$blogId'
     | '/events/previouscongregations'
@@ -152,6 +162,7 @@ export interface FileRouteTypes {
     | '/contactus'
     | '/events'
     | '/legaldocs'
+    | '/privacy-policy'
     | '/publications'
     | '/blogs/$blogId'
     | '/events/previouscongregations'
@@ -166,6 +177,7 @@ export interface FileRouteTypes {
     | '/contactus/'
     | '/events/'
     | '/legaldocs/'
+    | '/privacy-policy/'
     | '/publications/'
     | '/blogs/$blogId/'
     | '/events/previouscongregations/'
@@ -181,6 +193,7 @@ export interface RootRouteChildren {
   ContactusIndexRoute: typeof ContactusIndexRoute
   EventsIndexRoute: typeof EventsIndexRoute
   LegaldocsIndexRoute: typeof LegaldocsIndexRoute
+  PrivacyPolicyIndexRoute: typeof PrivacyPolicyIndexRoute
   PublicationsIndexRoute: typeof PublicationsIndexRoute
   BlogsBlogIdIndexRoute: typeof BlogsBlogIdIndexRoute
   EventsPreviouscongregationsIndexRoute: typeof EventsPreviouscongregationsIndexRoute
@@ -203,6 +216,13 @@ declare module '@tanstack/react-router' {
       path: '/publications'
       fullPath: '/publications'
       preLoaderRoute: typeof PublicationsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/privacy-policy/': {
+      id: '/privacy-policy/'
+      path: '/privacy-policy'
+      fullPath: '/privacy-policy'
+      preLoaderRoute: typeof PrivacyPolicyIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/legaldocs/': {
@@ -285,6 +305,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContactusIndexRoute: ContactusIndexRoute,
   EventsIndexRoute: EventsIndexRoute,
   LegaldocsIndexRoute: LegaldocsIndexRoute,
+  PrivacyPolicyIndexRoute: PrivacyPolicyIndexRoute,
   PublicationsIndexRoute: PublicationsIndexRoute,
   BlogsBlogIdIndexRoute: BlogsBlogIdIndexRoute,
   EventsPreviouscongregationsIndexRoute: EventsPreviouscongregationsIndexRoute,

@@ -4,6 +4,7 @@ import {
   FaHouseUser,
   FaInstagram,
   FaLink,
+  FaLock,
   FaPhoneAlt,
   FaYoutube,
 } from "react-icons/fa";
@@ -40,6 +41,13 @@ const Footer = () => {
           >
             {/* <img src="/SElogo.png" alt="Satsang Logo" className="h-4 w-4" /> */}
             <span className="font-bold">Legal Documents</span> <FaLink />
+          </Link>
+          <Link
+            to="/privacy-policy"
+            className="flex items-center gap-2 text-md text-blue-400"
+          >
+            {/* <img src="/SElogo.png" alt="Satsang Logo" className="h-4 w-4" /> */}
+            <span className="font-bold">App Privacy Policy</span> <FaLock />
           </Link>
           <div className="my-3">
             <p className="pb-2">Follow us on:</p>
